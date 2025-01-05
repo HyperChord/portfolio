@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Suveer Upadhya - About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME<a></li>
+                <li><a href="about.html">ABOUT<a></li>
+                <li><a href="resume.html">RESUME<a></li>
+                <li><a href="blog.html">BLOG<a></li>
+                <li><a href="contact.html">CONTACT<a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Me</h1>
+    </section>
+
+<!----------- about me content ----------->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>I am Suveer Upadhya</h1>
+            <p>I am Suveer, and I have a deep passion for coding and math. These fields captivate me because they offer opportunities to approach problems in both creative and logical ways. Each new challenge is an invitation to explore various perspectives, apply different methods, and discover solutions. The process of breaking down complex problems and finding efficient ways to solve them is something that excites me, as it allows me to engage my analytical skills while also tapping into my creativity.<br><br>
+
+                In coding, I enjoy the technical aspect of writing programs, debugging, and optimizing algorithms. There's something deeply satisfying about seeing a piece of code come to life and function as intended. It provides me with a sense of accomplishment and encourages me to think critically about the most effective way to approach each project. The constant evolution of programming languages and technologies also drives my curiosity, and I am eager to stay up-to-date with the latest trends.<br><br>
+                
+                Math, on the other hand, challenges me with its abstract nature and the beauty of its patterns. I find joy in uncovering the logic behind complex mathematical concepts and applying them to real-world scenarios. Whether it's solving equations, exploring geometric shapes, or studying probability, I enjoy the intellectual stimulation that math provides. It allows me to think deeply about problems and strengthens my problem-solving abilities, which I can then apply to other areas of life.<br><br>
+                
+                I am always eager to learn more in both coding and math, striving to expand my knowledge and improve my skills. I understand that these subjects require dedication and persistence, and I am committed to putting in the effort necessary to progress. Whether it's through reading books, taking courses, or collaborating with others, I am always looking for ways to enhance my understanding and grow as both a learner and a practitioner.<br><br>
+                
+                My ultimate goal is to build a strong foundation in coding and math that will serve me well in the future. Whether I pursue academics, a career in technology, or personal projects, I know that the skills I develop in these fields will be invaluable. I believe that continuous learning and improvement are essential to mastering these subjects and achieving long-term success, and I am excited to see where this journey will take me.<br><br>
+                </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+
+
+
+</section>
+
+
+<!------- Footer ------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Phone: +1 (786) 969-2590 <br>
+        Email: suveerupadhya@gmail.com<br></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Suveer Upadhya</p>
+</section>
+
+<!------Javascript for Togggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0px";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
